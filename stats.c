@@ -9,17 +9,19 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c>
+ * @brief <This code perfoms statistical analysis on a dataset >
  *
- * <Add Extended Description Here>
+ * <The code analyze an array of unsigned char data items and report analytics on
+ * the maximum, minimum, mean, and median of the data set. In addition, the code
+ * reorder this data set from large to small. All results are
+ * rounded down to the nearest integer. After analysis and sorting is done,
+ * the code prints that data to the screen>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Stephane NGNEPIEPAYE WEMBE>
+ * @date <16/04/2021>
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -41,3 +43,40 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+void print_statistics(unsigned char* arrayData, unsigned int arraySize){
+
+
+}
+
+
+void print_array(unsigned char* arrayData, unsigned int arraySize){
+
+}
+
+
+unsigned char find_median(unsigned char* arrayData, unsigned int arraySize){
+
+}
+
+
+unsigned char find_mean(unsigned char* arrayData, unsigned int arraySize){
+
+}
+
+
+unsigned char find_maximum(unsigned char* arrayData, unsigned int arraySize){
+
+}
+
+
+unsigned char find_minimum(unsigned char* arrayData, unsigned int arraySize){
+
+}
+
+
+void sort_array(unsigned char* arrayData, unsigned int arraySize){
+
+
+}
+
+
